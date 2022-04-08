@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgb(250, 242, 242);
+}
+
+.banner{
+    background-image: url("shoes1.jpg");
+    width: 98%;
+    height: 70vh;
+    position: absolute;
+    background-size: cover;
+    margin: 10px;
+}
+.container{
+   color: aliceblue;
+   width: 55%;
+   padding-top: 170px;
+   margin-left: 200px;
+}
+.container span{
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 3px;
+
+}
+.container h1{
+   margin-bottom: 10px;
+   font-size: 60px;
+   font-weight: 600;
+   letter-spacing: 3px;
+   font-family: sans-serif;
+
+}
+.container pe{
+   margin-bottom: 40px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   font-style: italic;
+}
+.button a{
+   text-decoration: none;
+   margin-right: 28px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+.button a{
+   padding: 18px 30px;
+   background-color: rgba(243, 16, 16, 0.651);
+   border: 2px solid #fff;
+   font-size: 18px;
+   font-weight: 600;
+   font-style: italic;
+   color: #fff;
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+.searchbar{
+    background-color: #faf0f0;
+    width: 350px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: center;
+    margin-left: 150px;
+}
+.searchbar input{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.searchbar img{
+    width: 18px;
+}
+.logo img{
+ width: 200px;
+}
+.cart img{
+    width: 70px;
+    height: 5vh;
+    margin-top: 15px;
+}
+.cart{
+    display: flex;
+    margin-left: 200px;
+}
+.title{
+    display: inline-flex;
+    margin-left: 50px;
+}
+.menu{
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+    height: 5vh;
+}
+.menu ul{
+   display: inline-flex;
+   list-style: none;
+   color: #faf0f0;
+}
+.menu ul li{
+   width: 120px;
+   margin: 3px;
+   padding: 3px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: #faf0f0;
+
+}
+.menu ul li:hover{
+    background-color: black;
+    border-radius: 3px;
+  
+}
+.sub1{
+    display: none;
+}
+.menu ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: rgb(231, 19, 19);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub1 ul li{
+    width: 120px;
+    padding: 10px;
+    border: dotted black;
+    background: transparent;
+}
+.menu ul li:hover .sub1 ul li a:hover{
+    color: black;
+}
+.sub2{
+    display: none;
+}
+.menu ul li:hover .sub2{
+    display: block;
+    position: absolute;
+    background: rgb(231, 19, 19);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub2 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub2 ul li{
+    width: 120px;
+    padding: 10px;
+    border: dotted black;
+    background: transparent;
+}
+.menu ul li:hover .sub2 ul li a:hover{
+    color: black;
+}
+.sub3{
+    display: none;
+}
+.menu ul li:hover .sub3{
+    display: block;
+    position: absolute;
+    background: rgb(231, 19, 19);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub3 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub3 ul li{
+    width: 120px;
+    padding: 10px;
+    border: dotted black;
+    background: transparent;
+}
+.menu ul li:hover .sub3 ul li a:hover{
+    color: black;
+}
+
+
+
+
+.men ul{
+    list-style: none;
+    margin: 10px;
+    display: inline-flex;
+}
+.men ul li img{
+    width: 110%;
+    height: 30vh;
+         
+}
+.men ul li{
+    margin: 30px;
+}
+
+
+
+
+.womenfa ul{
+    list-style: none;
+    margin: 10px;
+    display: inline-flex;
+}
+.womenfa ul li img{
+    width: 110%;
+    height: 30vh;
+         
+}
+.womenfa ul li{
+    margin: 30px;
+}
+
+
+
+.kid ul{
+    list-style: none;
+    margin: 10px;
+    display: inline-flex;
+}
+.kid ul li img{
+    width: 110%;
+    height: 30vh;
+         
+}
+.kid ul li{
+    margin: 30px;
+}
+
+
+
+
